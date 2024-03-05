@@ -1,0 +1,24 @@
+h1{
+    color: #ff0000;
+}
+
+h2{
+    color:#0000ff;
+}
+
+#ads1{
+    background-color: darkgoldenrod;
+    height: 150px;
+    width: 250px;
+}
+#ads2{
+    background-color: darkgreen;
+    height: 150px;
+    width: 250px;
+}
+#ads3{
+    background-color: darkblue;
+    height: 120px;
+    width: 120px;
+    border-radius: 60px;
+}
