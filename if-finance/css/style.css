@@ -1,0 +1,159 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #dbdbdb;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+}
+body > header{
+    width: calc(100% - 32px);
+    height: 100px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:  0 16px;
+    color: white;
+}
+.logotipo{
+    width: 250px;
+    height: 45px;
+    /* background-color: #545454; */
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.menu{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    list-style-type: none;
+    gap:16px;
+}
+
+.menu a:hover{
+    color: #fcca3d;
+    cursor: pointer;
+    border-bottom: 3px solid #fcca3d;
+}
+.menu a{
+    color: white;
+    text-decoration: none;
+    padding-bottom: 36px;
+}
+
+.menu a.active{
+    color: #f2a50c;
+    border-bottom: 3px solid #f2a50c;
+}
+
+.logotipo img{
+    width: 45px;
+    height: 45px;
+}
+
+.logotipo h1{
+    margin: 0;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+}
+
+body > main{
+    width: 100%;
+    min-height: calc(100vh - 250px);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card-ticker{
+    background-color: #b4b4b4;
+    height:max-content;
+    max-width: 250px;
+    width: 25vw;
+    min-width: max-content;
+    border-radius: 15px;
+    padding: 16px;
+    margin:10px;
+}
+
+.card-ticker header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-ticker header h2{
+    margin:0px;
+    font-size: 12px;
+}
+.card-ticker header h1{
+    margin:0 0 0 8px;
+    font-size: 14px;
+}
+
+.card-ticker main p{
+    margin: 24px 0 0 0;
+    font-size: 24px;
+}
+
+.card-ticker main :nth-child(2){
+    background-color: #17ac1f;
+    color: white;
+    border-radius: 15px;
+    padding: 2px 10px;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+}
+
+.card-ticker main :nth-child(3){
+    /* color: #17ac1f; */
+    font-size: 10px;
+}
+
+.card-ticker footer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-ticker footer :nth-child(2){
+    display:flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.card-ticker footer :nth-child(1){
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.card-ticker footer p{
+    margin: 10px 0 0 0;
+    font-weight: 500;
+}
+
+body > footer{
+    height: 150px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+th, td{
+    border: 1px solid #000;
+    text-align: left;
+    padding: 4px 8px 4px 8px;
+}
+
+tr:nth-child(odd){
+    background-color: #b4b4b4
+}
